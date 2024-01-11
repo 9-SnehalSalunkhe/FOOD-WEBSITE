@@ -1,5 +1,7 @@
 *{
     margin:0px;
+    font-family: 'poppins';
+    
 }
 
 #header-div{
@@ -9,6 +11,7 @@
     background-repeat: no-repeat;
     padding:12px;
     display: flex;
+    bottom: 5px;
 
 }
 #logo-div{
@@ -72,7 +75,7 @@
     border:1px ;
     border-style:solid;
     border-color:#FFFFFF;
-    border-radius:4px;
+    border-radius:6px;
     height: 40px;
     width:160px;
     font-size: medium;
@@ -84,4 +87,101 @@
     
 
 }
+
+#heading{
+    display: block;
+    color:#192F60;
+    font-weight: bold;
+    margin-top:30px;
+    margin-left:110px;
+    font-size: 17px;
+    width:480px;
+    margin-bottom: 15px;
+}
+
+/*--------------------------------second part----------------------------------------------------------------------------*/
+
+
+#filters{
+    background-color:#FFFFFF;
+    box-shadow: 0px 3px 6px #00000029;
+    color:black;
+    width:210px;
+    height:500px;
+    margin-left:110px;
+    margin-top: 25px;
+    display:inline-block;
+}
+
+.filter-heading{
+    color:#192F60;
+    font-size:18px;
+    padding-bottom: 0px;
+    padding-top:10px;
+    padding-left: 25px;
+    font-weight: bolder;
+
+}
+.filter-heading2{
+    color:#192F60;
+    font-size:14px;
+    padding-left: 26px;
+    padding-bottom:15px;
+    padding-top:9px;
+}
+
+
+.dropdown{
+    height:30px;
+    width:157px;
+    text-align: center;
+    padding-top:2px;
+    padding-left:1px;
+    margin-left:25px;
+    padding-right:30px ;
+    border: 1px solid ;
+    border-color:#8C96AB;
+    border-radius:3px;
+    color:#192F60;
+    
+} 
+    
+p{
+    color:#192F60;
+    padding:23px;
+    padding-bottom:9px;
+    font-size: 14px;
+}
+
+#check-box{
+    padding:23px;
+    padding-top:2px;
+    background-color:#FFFFFF;
+}
+
+.checkboxes{
+    color:#8C96AB;
+    font-size:14px;
+    padding-left:5px;
+    margin:4px 4px 0px 4px;
+    
+}
+ 
+ .checkbox
+ {
+    border-color:#192F60;
+    border:2px solid;
+    border-radius:1.5px;
+    margin:2px;
+ }
+
+#card1{
+    background-color: #192F60;
+    color:white;
+    margin-left: 400px;
+    margin-top:0px;
+    width:50%;
+    
+    }
+
 
