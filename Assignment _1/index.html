@@ -2,15 +2,17 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment1_zomato_web_page</title>
 </head>
 <body>
-
-        <!--   this div for whole page    -->
-
-
+ 
+       <div><!----- div for whole page-->
         <div id="header-div">
              <!--    for header    -->
               <div id="logo-div">
@@ -41,14 +43,13 @@
           <!--   div for heading-->
           <h1>Breakfast Places in Mumbai</h1>
         </div>
-       
-       
-      +
+        <!------------------------------------------------------------------------------------------------------------------------------------->
+        <div id="main">
+
         
-          <div id="filters">
+         <div id="filter-div">
           <p class="filter-heading">Filters</p>
           <p class="filter-heading2">Select Location</p>
-         
 
           <select name="Select location"  class="dropdown">
             <option value="Select Location">Select Location</option>
@@ -56,20 +57,69 @@
             <option value="2">COLABA</option>
             <option value="3">DADAR</option>
             <option value="4">CION</option>
-            </select>
+            </select>   
 
             <p>Cuisine</p>
             <div id="check-box">
               <!--div for check box-->
             
-            <input type="checkbox" id="c1" name="check" value="North Indian" class="checkbox"><label for="c1" class="checkboxes">North Indian</label><br>
-           <input type="checkbox" id="c2" name="check" value="South Indian" class="checkbox"><label for="c2" class="checkboxes">South Indian</label><br>
-           <input type="checkbox" id="c3" name="check" value="Chinese" class="checkbox"><label for="c3" class="checkboxes">Chinese</label><br>
-           <input type="checkbox" id="c4" name="check" value="Fast Food" class="checkbox"><label for="c4" class="checkboxes">Fast Food</label><br>
-           <input type="checkbox" id="c5" name="check" value="Street Food" class="checkbox"><label for="c5" class="checkboxes">Street Food</label><br>
-           
+            <input type="checkbox" id="c1" name="check" value="North Indian" class="check-kbox">
+            <label for="c1" class="checkboxes">North Indian</label><br>
+           <input type="checkbox" id="c2" name="check" value="South Indian" class="checkbox">
+           <label for="c2" class="checkboxes">South Indian</label><br>
+           <input type="checkbox" id="c3" name="check" value="Chinese" class="checkbox">
+           <label for="c3" class="checkboxes">Chinese</label><br>
+           <input type="checkbox" id="c4" name="check" value="Fast Food" class="checkbox">
+           <label for="c4" class="checkboxes">Fast Food</label><br>
+           <input type="checkbox" id="c5" name="check" value="Street Food" class="checkbox">
+           <label for="c5" class="checkboxes">Street Food</label><br>
+             
+        </div>
+
+         <p>Cost For Two</p>
+        <input type="radio" id="r1" name="gender" value="radio1" class="class-radio">
+        <label for="r1" class="checkboxes">Less than ` 500</label><br>
+        <input type="radio" id="r2" name="gender" value="radio2" class="class-radio">
+        <label for="r2" class="checkboxes">` 500 to ` 1000</label><br>
+        <input type="radio" id="r3" name="gender" value="radio3" class="class-radio">
+        <label for="r3"class="checkboxes">` 1000 to ` 1500</label><br>
+        <input type="radio" id="r4" name="gender" value="radio3" class="class-radio">
+        <label for="r4"class="checkboxes">` 1500 to ` 2000</label><br>
+        <input type="radio" id="r5" name="gender" value="radio3" class="class-radio">
+        <label for="r5"class="checkboxes">` 2000+</label>
+
+        <p class="sort">Sort</p>
+        <input type="radio" id="r6" name="gender" value="radio3" class="class-radio">
+        <label for="r5"class="checkboxes">Price low to high</label><br>
+        <input type="radio" id="r7" name="gender" value="radio3" class="class-radio">
+        <label for="r5"class="checkboxes">Price high to low</label>
+        
+        
+        
+        
+        </div>
+        <div id="div2">
+          <div>
+          <!---------------div for cards----------------------------------------------------------->
+          <!--cards-->
+          <div id="card1"> <!-- div for card 1-->
+          
+              <div class="img"> 
+                <img src="css/bf.png" alt="dish img" class="card-img">
+              </div>
+              
+            </div><!---div for card 1 complete-->
+
+          <div id="card2">
+            fgg
           </div>
         </div>
 
-</body>
+       </div>       <!--close div cards-->
+       <!--open pagination div-->
+       
+       <!--close pagination div-->
+
+      </div>
+      </body>
 </html>

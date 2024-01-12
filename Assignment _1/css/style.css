@@ -31,7 +31,7 @@
     color:#CE0505;
     font-family: "Poppins";
     text-align: center;
-    padding-top: 3px;
+    padding-top: 2px;
     font-size:33px;
 }
 
@@ -96,92 +96,145 @@
     margin-left:110px;
     font-size: 17px;
     width:480px;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
-/*--------------------------------second part----------------------------------------------------------------------------*/
-
-
-#filters{
-    background-color:#FFFFFF;
+#filter-div {
+    background-color: #FFFFFF;
     box-shadow: 0px 3px 6px #00000029;
-    color:black;
-    width:210px;
-    height:500px;
-    margin-left:110px;
-    margin-top: 25px;
-    display:inline-block;
+    color: black;
+    width: 20%;
+    height: 650px;
+    margin-left: 110px;
+    margin-top: 7px;
+    /* display: inline-block; */
 }
 
-.filter-heading{
-    color:#192F60;
-    font-size:18px;
-    padding-bottom: 0px;
-    padding-top:10px;
-    padding-left: 25px;
-    font-weight: bolder;
-
-}
-.filter-heading2{
-    color:#192F60;
-    font-size:14px;
-    padding-left: 26px;
-    padding-bottom:15px;
-    padding-top:9px;
-}
-
-
-.dropdown{
-    height:30px;
-    width:157px;
-    text-align: center;
-    padding-top:2px;
-    padding-left:1px;
-    margin-left:25px;
-    padding-right:30px ;
-    border: 1px solid ;
-    border-color:#8C96AB;
-    border-radius:3px;
-    color:#192F60;
-    
-} 
-    
-p{
-    color:#192F60;
-    padding:23px;
-    padding-bottom:9px;
-    font-size: 14px;
-}
-
-#check-box{
-    padding:23px;
-    padding-top:2px;
-    background-color:#FFFFFF;
-}
-
-.checkboxes{
-    color:#8C96AB;
-    font-size:14px;
-    padding-left:5px;
-    margin:4px 4px 0px 4px;
-    
-}
- 
- .checkbox
- {
-    border-color:#192F60;
-    border:2px solid;
-    border-radius:1.5px;
-    margin:2px;
- }
-
-#card1{
-    background-color: #192F60;
-    color:white;
-    margin-left: 400px;
-    margin-top:0px;
-    width:50%;
+    .filter-heading{
+        color:#192F60;
+        font-size:18px;
+        padding-bottom: 0px;
+        padding-top:10px;
+        padding-left: 25px;
+        font-weight: bolder;
     
     }
+    .filter-heading2{
+        color:#192F60;
+        font-size:14px;
+        padding-left: 26px;
+        padding-bottom:15px;
+        padding-top:9px;
+    }
+    .dropdown{
+        height:30px;
+        width:157px;
+        text-align: center;
+        padding-top:2px;
+        padding-left:1px;
+        margin-left:25px;
+        padding-right:30px ;
+        border: 1px solid ;
+        border-color:#8C96AB;
+        border-radius:3px;
+        color:#8C96AB;
+        
+    } 
+        
+    p{
+        color:#192F60;
+        padding:23px;
+        padding-bottom:9px;
+        font-size: 14px;
+       }
 
 
+    .sort{
+        color:#192F60;
+        padding:23px;
+        padding-bottom:9px;
+        font-size: 14px;
+        font-weight: bold;
+         
+    }
+    #check-box{
+        padding:23px;
+        padding-top:2px;
+        background-color:#FFFFFF;
+        opacity:100%
+    }
+    
+    .checkboxes{
+        color:#8C96AB;
+        font-size:14px;
+        padding-left:5px;
+        margin:4px 4px 0px 4px;
+        
+    }
+     
+     .check-box
+     {
+        color:#192F60;
+        border:2px solid;
+        border-radius: 1.5px;
+        margin:2px;
+        opacity: 100%;
+     }
+     
+     .class-radio{
+      border-color: #3A5075;
+      border-radius:9px;
+      margin-left:20px;
+      opacity: 100%;
+    }
+ 
+
+     /*--------------------------------------------------------------------------------------------------------------------------------------------------------*/
+     #main{
+        display: flex;
+     }
+     
+     
+     #div2 {
+        /* background-color: #0e0202; */
+        /* box-shadow: 0px 3px 6px #00000029; */
+        width: 80%;
+        height: 700px;
+        margin-left: 3%;
+        margin-right: 2%;
+        margin-bottom: 700px;
+        /* display: inline-block; */
+        flex-grow: 1;
+    }
+#card1{
+    background-color:#FFFFFF;
+    box-shadow: 0px 3px 6px #00000029;
+   opacity:1;
+   color:black;
+   width:700px;
+   height:250px;
+   margin-left:0px;
+   margin-top:0px;
+}
+
+
+.img{
+    width: 120px;
+    height: 120px;
+    border-radius:9px;
+}
+.card-img {
+    padding: 3%;
+    width: 120px;
+    height: 120px;
+}
+#card2{
+    background-color:#FFFFFF;
+    box-shadow: 0px 3px 6px #00000029;
+   opacity:1;
+   color:black;
+   width:700px;
+   height:250px;
+   margin-left:2px;
+   margin-top:40px;
+}
