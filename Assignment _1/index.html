@@ -12,7 +12,7 @@
 </head>
 <body>
  
-       <div><!----- div for whole page-->
+       <div id="page"><!----- div for whole page-->
         <div id="header-div">
              <!--    for header    -->
               <div id="logo-div">
@@ -99,20 +99,97 @@
         
         </div>
         <div id="div2">
-          <div>
+          <div id="card-list">
           <!---------------div for cards----------------------------------------------------------->
           <!--cards-->
-          <div id="card1"> <!-- div for card 1-->
+          <div class="card"> <!-- div for card 1-->
+
+          <div id="upper-div" style="display:flex">
+            <div id="imgdiv""><!--div for (img div)-->
+              <img src="css/bf.png" alt="" class="img-div">
+           </div>
+           <div id="img-text" style="margin:10px;">
+            <h2>The Big Chill Cakery</h2>
+            <h4>FORT</h4>
+            <p class="p1">Shop 1, Plot D, Samruddhi Complex, Chincholi …</p>
+           </div>
           
-              <div class="img"> 
-                <img src="css/bf.png" alt="dish img" class="card-img">
-              </div>
+           </div>
+             <hr class="hr-class">
+           <div id="below-div">
+            
+            <div id="description">
+              <p  class="menu-desc">
+                <span class="menu">CUISINES:</span>
+                <span class="value">Bakery</span>
+              </p>
+              <p class="menu-desc">
+                <span class="menu">COST FOR TWO:</span>
+                <span class="value"> ₹700</span>
+              </p>
+            </div>
+           </div>
+             
               
             </div><!---div for card 1 complete-->
 
-          <div id="card2">
-            fgg
+            <div class="card">
+
+              <div id="upper-div" style="display:flex">
+                <div id="imgdiv""><!--div for (img div)-->
+                  <img src="css/bf.png" alt="" class="img-div">
+               </div>
+               <div id="img-text" style="margin:20px; padding:15px;">
+                <h2 class="img-heading">The Big Chill Cakery</h2>
+                <h4 class="fort" style="padding:20px;">FORT</h4>
+                <p class="p1">Shop 1, Plot D, Samruddhi Complex, Chincholi …</p>
+               </div>
+              
+               </div>
+                 <hr class="hr-class">
+               <div id="below-div">
+                
+                <div id="description">
+                  <p  class="menu-desc">
+                    <span class="menu">CUISINES:</span>
+                    <span class="value">Bakery</span>
+                  </p>
+                  <p class="menu-desc">
+                    <span class="menu">COST FOR TWO:</span>
+                    <span class="value"> ₹700</span>
+                  </p>
+                </div>
+               </div>
+                 
+                  
+                </div><!---div for card 1 complete-->
+    
+         </div>
+
+         <div id="pagination" style="display:flex">
+          <div class="pagination-btns">
+            &#60;
           </div>
+          <div class="hover-btn" >
+            1
+          
+          </div>
+          <div class="pagination-btns">
+            2
+          </div>
+          <div class="pagination-btns">
+            3
+          </div>
+          <div class="pagination-btns">
+            4
+          </div>
+          <div class="pagination-btns">
+            5
+          </div>
+          <div class="pagination-btns">
+            &#62;
+          </div>
+        </div>
         </div>
 
        </div>       <!--close div cards-->
