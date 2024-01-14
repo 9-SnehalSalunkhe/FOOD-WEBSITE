@@ -36,7 +36,7 @@
     font-family: "Poppins";
     text-align: center;
     padding-top: 2px;
-    font-size: 33px;
+    font-size: 30px;
 }
 
 #div-loginbtn {
@@ -110,8 +110,6 @@
     width: 20%;
     height: 676px;
     margin-left: 110px;
-    margin-top: 7px;
-    /* display: inline-block; */
 }
 
 .filter-heading {
@@ -251,12 +249,16 @@ p {
 }
 .img-heading{
     padding:2px;
+    padding-top:10px;
 }
 
+h4{
+    padding-top:2px;
+}
 
 .p1 {
     color: #636F88;
-    padding: 0px;
+    padding:5px;
 }
 
 .hr-class {
