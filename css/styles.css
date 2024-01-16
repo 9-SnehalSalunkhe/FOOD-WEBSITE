@@ -1,21 +1,24 @@
 *{
     margin: 0px;
-    font-family: 'aerial' 'helvetica' 'san-sarif';
+    font-family:'poppins';
 }
 
 
 .div1{
-  background-image :linear-gradient(transparent, rgba(0, 0, 0, 0.1),rgba(2, 2, 2, 0.8)), url(/css/images/i1.png);
-  height: 440px;
-  width: 1300px;
+  background-image :linear-gradient(transparent, rgba(0, 0, 0, 0.1),rgba(2, 2, 2, 1)), url(/css/images/i1.png);
+  height: 470px;
+  width: 100%;
   color: white;
   
-  background-size: cover;
+  background-size:cover;
    font-weight: bolder;
   font-size:  2.5rem;
   text-align: center;
   margin-bottom: 30px;
 }
+
+
+
 
 .logo-heading{
   display: flex;
@@ -24,18 +27,20 @@
 }
 
 .logo{
-  margin-top:65px;
+  margin-top:70px;
   padding:1rem 1rem,1rem.1rem;
   opacity:100%;
   color:#EB2929;
   padding:2px;
+  padding-top:1px;
   background-color: white;
   border-radius: 50%;
   height:90px;
   width:100px;
+  
   text-align:center;
   font-weight:bolder;
-  font-size: 60px;
+  font-size: 50px;
   font-family:'Poppins''SemiBold';
 }
 .para1{
@@ -80,7 +85,7 @@
   
 }
 .quick-search{
-  margin-top:140px;
+  margin-top:102px;
   margin-left:20px;
   padding : 1rem 1rem 1rem 1rem;
   text-align:left;
